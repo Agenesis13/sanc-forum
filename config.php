@@ -1,20 +1,16 @@
 <?php return array (
   'debug' => false,
-  'database' => 
-  array (
+  'database' => [
     'driver' => 'mysql',
-    'host' => 'ol5tz0yvwp930510.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-    'port' => 3306,
-    'database' => 'acp3e3jf0ehsxcbl',
-    'username' => 'as8boonishjaaqbr',
-    'password' => 'v3u0s0peliepvlus',
+    'host' => env('DB_HOST', 'gtizpe105piw2gfq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'),
+    'database' => env('DB_DATABASE', 'hkb96jflbhef4sz0'),
+    'username' => env('DB_USERNAME', 't7sk5t4dhy48keta'),
+    'password' => env('DB_PASSWORD', 'j9msnpn7o1yvnh5q'),
     'charset' => 'utf8mb4',
     'collation' => 'utf8mb4_unicode_ci',
     'prefix' => '',
-    'strict' => false,
-    'engine' => 'InnoDB',
-    'prefix_indexes' => true,
-  ),
+    'strict' => true,
+],
   'url' => 'http://localhost/flarum/public',
   'paths' => 
   array (
